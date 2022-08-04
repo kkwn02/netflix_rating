@@ -1,0 +1,63 @@
+.overlay_image{
+    position: absolute;
+    top: 0px;
+    /* right: 0px; */
+    background-color: #E6B91E;
+    font-weight: bold;
+    color: black;
+    /* font-size: 10vw; */
+    text-align: center;
+}
+
+.triangle {
+  position: absolute;
+  /* right: 0px; */
+  /* top: 12vw; */
+  /* background-color: #E6B91E; */
+  width: 0px;
+  height: 0px;
+  border-left: solid #E6B91E;
+  border-right: solid #E6B91E;
+  border-bottom: solid transparent;
+}
+
+.boxart-size-16x9, .boxart-size-32x9 {
+    height: 0;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+}
+
+.boxart-size-16x9 {
+    padding: 28.125% 0;
+}
+
+.boxart-rounded {
+    border-radius: 0.2vw;
+}
+
+* {
+    letter-spacing: 0!important;
+}
+
+div {
+    display: block;
+}
+
+
+img {
+    border: 0;
+}
+
+.title-card .boxart-container img {
+    cursor: pointer;
+}
+
+.boxart-image-in-padded-container {
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 100%;
+}

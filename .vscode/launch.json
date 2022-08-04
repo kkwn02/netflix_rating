@@ -1,0 +1,39 @@
+{
+    "configurations": [
+        {
+            "type": "aws-sam",
+            "request": "direct-invoke",
+            "name": "ratingScraper:HelloWorldFunction (python3.9)",
+            "invokeTarget": {
+                "target": "template",
+                "templatePath": "${workspaceFolder}/ratingScraper/template.yaml",
+                "logicalId": "HelloWorldFunction"
+            },
+            "lambda": {
+                "payload": {},
+                "environmentVariables": {},
+                "runtime": "python3.9"
+            }
+        },
+        {
+            "type": "aws-sam",
+            "request": "direct-invoke",
+            "name": "API ratingScraper:HelloWorldFunction (python3.9)",
+            "invokeTarget": {
+                "target": "api",
+                "templatePath": "${workspaceFolder}/ratingScraper/template.yaml",
+                "logicalId": "HelloWorldFunction"
+            },
+            "api": {
+                "path": "/hello",
+                "httpMethod": "get",
+                "payload": {
+                    "json": {}
+                }
+            },
+            "lambda": {
+                "runtime": "python3.9"
+            }
+        }
+    ]
+}

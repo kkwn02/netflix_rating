@@ -1,0 +1,36 @@
+{"@context":"http://schema.org"
+"@type":"TVSeries"
+"url":"https://www.netflix.com/title/70143836"
+"contentRating":"TV-MA"
+"name":"Breaking Bad"
+"description":"A high school chemistry teacher dying of cancer teams with a former student to secure his family's future by manufacturing and selling crystal meth."
+"genre":"TV Thrillers"
+"image":"https://occ-0-4240-33.1.nflxso.net/dnm/api/v6/6AYY37jfdO6hpXcMjf9Yu5cnmO0/AAAABR3UvGt0V7C1WXX0fXSXFKwjQ4Ny4qqEWRXXms__uBVVxwpU-W9MItASSienD8uCFYQEJuDCtVTdxLLahQQDKZLF8Y01uv8H1Dus.jpg?r=e04"
+"dateCreated":"2011-9-1"
+"actors":[{"@type":"Person"
+"name":"Bryan Cranston"}
+{"@type":"Person"
+"name":"Aaron Paul"}
+{"@type":"Person"
+"name":"Anna Gunn"}
+{"@type":"Person"
+"name":"Dean Norris"}
+{"@type":"Person"
+"name":"Betsy Brandt"}
+{"@type":"Person"
+"name":"RJ Mitte"}
+{"@type":"Person"
+"name":"Bob Odenkirk"}
+{"@type":"Person"
+"name":"Steven Michael Quezada"}
+{"@type":"Person"
+"name":"Jonathan Banks"}
+{"@type":"Person"
+"name":"Giancarlo Esposito"}]
+"creator":[{"@type":"Person"
+"name":"Vince Gilligan"}]
+"director":[]
+"awards":"\"Breaking Bad\" won a total of 16 Emmy Awards
+ including four Best Actor Emmys for star Bryan Cranston."
+"numberOfSeasons":5
+"startDate":"2011-9-1"}
